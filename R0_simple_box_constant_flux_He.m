@@ -1,9 +1,6 @@
 clear all
 close all
 
-% User input
-input_parameters
-
 Import_file_name='porosity water content';
 Import_parameters
 
@@ -15,7 +12,7 @@ hydro_group='Precambrian Basement';
 % basement: constant flux
 % surface: constant concentration
 
-start_age=2;   % empty [] = default = max(age)                       
+                    
 end_age=0;   %model to 1Ma, than change another programme for flushing
 
 make_video=0;
@@ -24,7 +21,6 @@ calc_stable=0;
 perc_pro_He=1;              
 
 %% define parameters
-dt =1;                       % timestep in Myrs
 secinmyr=1e6*365*24*3600;       % amount of seconds in 1 Myr
 secinyr=365*24*3600;            % amount of seconds in 1 Myr
 
