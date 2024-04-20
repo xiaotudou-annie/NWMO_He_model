@@ -1,6 +1,9 @@
 # NWMO_He_model
 
 NWMO funded research project aiming to constrain porewater ages using helium isotopes. The Monte Carlo model models the diffusive transport of helium through the precambrian basement.
+version 0.0.1
+authors `Anran Cheng`
+email `annie512cheng@gmail.com`
 
 ## Table of Contents
 
